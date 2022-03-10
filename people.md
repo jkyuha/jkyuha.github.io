@@ -1,4 +1,4 @@
 ---
 layout: people
-title: "About Me"
+title: "People"
 ---
