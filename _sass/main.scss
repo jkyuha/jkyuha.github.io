@@ -17,9 +17,13 @@ header {
   position: sticky;
   top: 0;
   padding: 0px;
-  background: #ffffff
+  background: #ffffff;
+  z-index: 2;
 }
-
+hr{
+  margin-left: 16px;
+  width: calc(100% - 32px) !important;
+}
 // . -> class , # -> id
 
 
@@ -101,4 +105,12 @@ header {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 300;
   text-align: right;
+}
+.fs11{
+  font-size: 1.1rem;
+}
+
+#jkh-email:hover{
+  color:#2666CF;
+  cursor: pointer;
 }
