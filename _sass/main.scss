@@ -34,8 +34,9 @@ hr{
 
 .kyuhaFaceDiv{
   display:flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
+  flex-direction: column;
 }
 
 #kyuha-face{
@@ -108,6 +109,14 @@ hr{
 }
 .fs11{
   font-size: 1.1rem;
+}
+
+.fs09{
+  font-size: 0.9rem;
+}
+
+.lh14{
+  line-height: 1.4;
 }
 
 #jkh-email:hover{
