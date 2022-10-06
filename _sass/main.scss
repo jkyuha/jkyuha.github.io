@@ -1,7 +1,7 @@
-$backgroundColor: #ffffff;
-$bodyColor: #019267;
+$backgroundColor: #FFFFFF;
+$bodyColor: #252525;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$linkColor: #019267 !important;
+$linkColor: #2666CF !important;
 
 body {
   background: $backgroundColor;
@@ -10,11 +10,95 @@ body {
 }
 
 body a {
-  color: $linkColor
+  color: #252525
 }
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
+  padding: 0px;
   background: #ffffff
+}
+
+// . -> class , # -> id
+
+
+#kyuha-signiture-img{
+  width: 150px;
+  margin-right:30px;
+}
+
+.kyuhaFaceDiv{
+  display:flex;
+  justify-content: center;
+  align-items: start;
+}
+
+#kyuha-face{
+  width: 100%;
+  max-width: 360px;
+}
+
+.lotties{
+  display:flex;
+  flex-direction: row;
+  
+}
+
+// InterTight
+
+.font-InterTight-SemiBold-blue{
+  font-family: 'Inter Tight', sans-serif;
+  color: #2666CF;
+  font-weight: 600;
+}
+
+.font-InterTight-SemiBold{
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+}
+
+.font-InterTight-Medium{
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+}
+
+.font-InterTight-Regular{
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 400;
+}
+
+.font-InterTight-Regular-blue{
+  font-family: 'Inter Tight', sans-serif;
+  color: #2666CF;
+  font-weight: 400;
+}
+
+.font-InterTight-Light{
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 300;
+}
+
+
+.font-InterTight-ExtraLight{
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 200;
+}
+
+.font-InterTight-Thin{
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 100;
+}
+
+.font-InterTight-SemiBold-blue-align_center{
+  font-family: 'Inter Tight', sans-serif;
+  color: #2666CF;
+  font-weight: 600;
+  text-align: center;
+}
+
+.font-InterTight-Light-align_right{
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 300;
+  text-align: right;
 }

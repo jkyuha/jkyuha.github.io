@@ -1,10 +1,17 @@
 featured:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
+- {
+   name: "Let's Talk @Clubhouse: Exploring Voice-Centered Social Media Platform and its Opportunities, Challenges, and Design Guidelines", 
+   authors: "Kyuha Jung, Yoobin Park, Hanwool Kim, and Joonhwan Lee",
+   published_at: "CHI Conference on Human Factors in Computing Systems Extended Abstracts",
+   url: "https://dl.acm.org/doi/pdf/10.1145/3491101.3519774?casa_token=HfQENuoolTEAAAAA:MDNpNfPgXshZJ4uckGl8jbU2G_indwJBZm7pNGbFXx12gM87aecH4KackvYMvztWIte80P78qvDX"
+   }
+   
 
 index:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
-- {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
+- {
+   name: "Let's Talk @Clubhouse: Exploring Voice-Centered Social Media Platform and its Opportunities, Challenges, and Design Guidelines", 
+   authors: "Kyuha Jung, Yoobin Park, Hanwool Kim, and Joonhwan Lee",
+   published_at: "CHI Conference on Human Factors in Computing Systems Extended Abstracts",
+   url: "https://dl.acm.org/doi/pdf/10.1145/3491101.3519774?casa_token=HfQENuoolTEAAAAA:MDNpNfPgXshZJ4uckGl8jbU2G_indwJBZm7pNGbFXx12gM87aecH4KackvYMvztWIte80P78qvDX"
+   }
+
