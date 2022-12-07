@@ -1,28 +1,30 @@
 <div class="row g-5 mb-5">
   <div>
     <h2 class="pb-5 mb-5 font-Satoshi-Bold-blue">Publications</h>
-    <h3 class="pb-5 mb-5 font-Satoshi-Bold">2022</h>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p><span class="font-Satoshi-Regular" style="font-size: 18pt;"><a href="{{ item.url }}">{{ item.name }}</a></span></p>
+      <h3 class="pb-5 mb-5 font-Satoshi-Bold">2022</h>
+        {% if page.title == "Home" %}
+        {% for item in site.data.publications.featured %}
+        <p><span class="font-Satoshi-Regular" style="font-size: 18pt;"><a href="{{ item.url }}">{{ item.name
+              }}</a></span></p>
         <p><span class="font-Satoshi-Light" style="font-size: 12pt;">{{ item.authors }}</span></p>
         <p><span class="font-Satoshi-Light" style="font-size: 12pt;">{{ item.published_at }}</span></p>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <p><span class="font-Satoshi-Regular" style="font-size: 18pt;"><a href="{{ item.url }}">{{ item.name }}</a></span></p>
+        {% endfor %}
+        {% else %}
+        {% for item in site.data.publications.index %}
+        <p><span class="font-Satoshi-Regular" style="font-size: 18pt;"><a href="{{ item.url }}">{{ item.name
+              }}</a></span></p>
         <p><span class="font-Satoshi-Light pubAuthors" style="font-size: 12pt;">{{ item.authors }}</span></p>
         <p><span class="font-Satoshi-Light" style="font-size: 12pt;">{{ item.published_at }}</span></p>
-      {% endfor %}
-    {% endif %}
+        {% endfor %}
+        {% endif %}
   </div>
 
 
 </div>
 <script>
   const pubAuthors = document.getElementsByClassName('pubAuthors')
-  for (let pa of pubAuthors){
+  for (let pa of pubAuthors) {
     pa.innerHTML = pa.innerHTML.replace('Kyuha Jung', '<b>Kyuha Jung</b>')
   }
-  
+
 </script>

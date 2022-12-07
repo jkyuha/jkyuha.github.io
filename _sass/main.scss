@@ -1,6 +1,6 @@
 $backgroundColor: #FFFFFF;
 $bodyColor: #252525;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $linkColor: #2666CF !important;
 
 body {
@@ -20,131 +20,143 @@ header {
   background: #ffffff;
   z-index: 2;
 }
-hr{
+
+hr {
   margin-left: 16px;
   width: calc(100% - 32px) !important;
 }
+
 // . -> class , # -> id
 
 
-#kyuha-signiture-img{
+#kyuha-signiture-img {
   width: 150px;
-  margin-right:30px;
+  margin-right: 30px;
 }
 
-.kyuhaFaceDiv{
-  display:flex;
+.kyuhaFaceDiv {
+  display: flex;
   justify-content: start;
   align-items: start;
   flex-direction: column;
 }
 
-#kyuha-face{
+#kyuha-face {
   width: 100%;
   // max-width: 360px;
 }
 
-.lotties{
-  display:flex;
+.lotties {
+  display: flex;
   flex-direction: row;
-  
+
 }
 
 // InterTight
 
-.font-InterTight-Bold-blue{
+.font-InterTight-Bold-blue {
   font-family: 'Inter Tight', sans-serif;
   color: #2666CF;
   font-weight: 700;
 }
 
-.font-InterTight-Bold{
+.font-InterTight-Bold {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 700;
 }
 
-.font-InterTight-SemiBold-blue{
+.font-InterTight-SemiBold-blue {
   font-family: 'Inter Tight', sans-serif;
   color: #2666CF;
   font-weight: 600;
 }
 
-.font-InterTight-SemiBold{
+.font-InterTight-SemiBold {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
 }
 
-.font-InterTight-Medium{
+.font-InterTight-Medium {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
 }
 
-.font-InterTight-Regular{
+.font-InterTight-Regular {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 400;
 }
 
-.font-InterTight-Regular-blue{
+.font-InterTight-Regular-blue {
   font-family: 'Inter Tight', sans-serif;
   color: #2666CF;
   font-weight: 400;
 }
 
-.font-InterTight-Light{
+.font-InterTight-Light {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 300;
 }
 
 
-.font-InterTight-ExtraLight{
+.font-InterTight-ExtraLight {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 200;
 }
 
-.font-InterTight-Thin{
+.font-InterTight-Thin {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 100;
 }
 
-.font-InterTight-SemiBold-blue-align_center{
+.font-InterTight-SemiBold-blue-align_center {
   font-family: 'Inter Tight', sans-serif;
   color: #2666CF;
   font-weight: 600;
   text-align: center;
 }
 
-.font-InterTight-Light-align_right{
+.font-InterTight-Light-align_right {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 300;
   text-align: right;
 }
 
-.blue{
+.blue {
   color: #2666CF;
 }
 
-.fs11{
+.fs11 {
   font-size: 1.1rem;
 }
 
-.fs10{
+.fs10 {
   font-size: 1.0rem;
 }
 
 
-.fs09{
+.fs09 {
   font-size: 0.9rem;
 }
 
-.lh14{
+.lh14 {
   line-height: 1.4;
 }
 
-#jkh-email:hover{
-  color:#2666CF;
+#jkh-email:hover {
+  color: #2666CF;
   cursor: pointer;
 }
 
-.mw920{
+.mw920 {
   max-width: 920px;
+}
+
+a.no-color-change:hover {
+  color: currentColor;
+}
+
+@media (max-width: 768px) {
+  .kyuhaFaceDiv img {
+    max-width: 200px;
+  }
 }
