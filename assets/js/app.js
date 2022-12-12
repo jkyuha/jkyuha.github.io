@@ -1,33 +1,58 @@
-// const narebotMoreBtn = document.getElementById('narebot-more-btn')
-// const narebotDetail = document.getElementById('narebot-detail')
+const MusicMoreBtn = document.getElementById('MusicMoreBtn')
+const MusicMore = document.getElementById('MusicMore')
 
-// function toggleNarebotDetail(){
-//     const narebotMoreBtnText = narebotMoreBtn.innerText
-//     if(narebotMoreBtnText === 'more'){
-//         openNarebotDetail()   
-//     }else{
-//         closeNarebotDetail()
-//     }
-// }
+function toggleMusicDetail() {
+    const MusicMoreBtnText = MusicMoreBtn.innerText
+    if (MusicMoreBtnText === '[Click to view]') {
+        openMusicDetail()
+    } else {
+        closeMusicDetail()
+    }
+}
 
-// function openNarebotDetail(){
-//     narebotMoreBtn.innerText = 'less'
-//     narebotDetail.style.display = ''
-// }
+function openMusicDetail() {
+    MusicMoreBtn.innerText = '[Click to close]'
+    MusicMore.style.display = 'flex'
+}
 
-// function closeNarebotDetail(){
-//     narebotMoreBtn.innerText = 'more'
-//     narebotDetail.style.display = 'none'
-// }
+function closeMusicDetail() {
+    MusicMoreBtn.innerText = '[Click to view]'
+    MusicMore.style.display = 'none'
+}
 
-// narebotMoreBtn.addEventListener('click', toggleNarebotDetail)
+MusicMoreBtn.addEventListener('click', toggleMusicDetail)
 
+
+
+const PieMoreBtn = document.getElementById('PieMoreBtn')
+const PieMore = document.getElementById('PieMore')
+
+function togglePieDetail() {
+    const PieMoreBtnText = PieMoreBtn.innerText
+    if (PieMoreBtnText === '[Click to view]') {
+        openPieDetail()
+    } else {
+        closePieDetail()
+    }
+}
+
+function openPieDetail() {
+    PieMoreBtn.innerText = '[Click to close]'
+    PieMore.style.display = 'flex'
+}
+
+function closePieDetail() {
+    PieMoreBtn.innerText = '[Click to view]'
+    PieMore.style.display = 'none'
+}
+
+PieMoreBtn.addEventListener('click', togglePieDetail)
 
 
 
 const khEmail = document.getElementById('jkh-email')
 
-function copyEmail(){
+function copyEmail() {
     navigator.clipboard.writeText('jkyuha@gmail.com');
     const liveToast = document.getElementById('liveToast')
     let toast = new bootstrap.Toast(liveToast)

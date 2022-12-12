@@ -125,6 +125,10 @@ hr {
   color: #2666CF;
 }
 
+.grey {
+  color: #808184;
+}
+
 .fs11 {
   font-size: 1.1rem;
 }
@@ -140,6 +144,10 @@ hr {
 
 .lh14 {
   line-height: 1.4;
+}
+
+.lh17 {
+  line-height: 1.7;
 }
 
 #jkh-email:hover {
@@ -159,4 +167,28 @@ a.no-color-change:hover {
   .kyuhaFaceDiv img {
     max-width: 270px;
   }
+}
+
+.mb-15 {
+  margin-bottom: -15px;
+}
+
+.align_center {
+  text-align: center;
+}
+
+#MusicMore {
+  display: none;
+}
+
+#MusicMoreBtn {
+  cursor: pointer;
+}
+
+#PieMore {
+  display: none;
+}
+
+#PieMoreBtn {
+  cursor: pointer;
 }
