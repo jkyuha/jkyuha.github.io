@@ -11,7 +11,7 @@ function toggleMusicDetail() {
 }
 
 function openMusicDetail() {
-    MusicMoreBtn.innerText = '[Click to close]'
+    MusicMoreBtn.innerText = '[Click to hide]'
     MusicMore.style.display = 'flex'
 }
 
@@ -37,7 +37,7 @@ function togglePieDetail() {
 }
 
 function openPieDetail() {
-    PieMoreBtn.innerText = '[Click to close]'
+    PieMoreBtn.innerText = '[Click to hide]'
     PieMore.style.display = 'flex'
 }
 
