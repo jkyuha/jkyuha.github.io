@@ -52,72 +52,45 @@ hr {
 
 }
 
-// InterTight
+// Switzer
 
-.font-InterTight-Bold-blue {
-  font-family: 'Inter Tight', sans-serif;
-  color: #2666CF;
+.font-Switzer-Bold {
+  font-family: 'Switzer', sans-serif;
   font-weight: 700;
 }
 
-.font-InterTight-Bold {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 700;
-}
-
-.font-InterTight-SemiBold-blue {
-  font-family: 'Inter Tight', sans-serif;
-  color: #2666CF;
+.font-Switzer-SemiBold {
+  font-family: 'Switzer', sans-serif;
   font-weight: 600;
 }
 
-.font-InterTight-SemiBold {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 600;
-}
-
-.font-InterTight-Medium {
-  font-family: 'Inter Tight', sans-serif;
+.font-Switzer-Medium {
+  font-family: 'Switzer', sans-serif;
   font-weight: 500;
 }
 
-.font-InterTight-Regular {
-  font-family: 'Inter Tight', sans-serif;
+.font-Switzer-Regular {
+  font-family: 'Switzer', sans-serif;
   font-weight: 400;
 }
 
-.font-InterTight-Regular-blue {
-  font-family: 'Inter Tight', sans-serif;
-  color: #2666CF;
-  font-weight: 400;
-}
-
-.font-InterTight-Light {
-  font-family: 'Inter Tight', sans-serif;
+.font-Switzer-Light {
+  font-family: 'Switzer', sans-serif;
   font-weight: 300;
 }
 
-
-.font-InterTight-ExtraLight {
-  font-family: 'Inter Tight', sans-serif;
+.font-Switzer-ExtraLight {
+  font-family: 'Switzer', sans-serif;
   font-weight: 200;
 }
 
-.font-InterTight-Thin {
-  font-family: 'Inter Tight', sans-serif;
+.font-Switzer-Thin {
+  font-family: 'Switzer', sans-serif;
   font-weight: 100;
 }
 
-.font-InterTight-SemiBold-blue-align_center {
-  font-family: 'Inter Tight', sans-serif;
-  color: #2666CF;
-  font-weight: 600;
-  text-align: center;
-}
 
-.font-InterTight-Light-align_right {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 300;
+.align_right {
   text-align: right;
 }
 
@@ -175,9 +148,9 @@ hr {
   cursor: pointer;
 }
 
-.mw920 {
-  max-width: 920px;
-}
+// .mw920 {
+//   max-width: 920px;
+// }
 
 a.no-color-change:hover {
   color: currentColor;
